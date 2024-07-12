@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 // components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
+import TechNology from "./technology/page";
+import ShowCase from "./showcase/page";
 
 const page = () => {
   return (
@@ -45,6 +47,9 @@ const page = () => {
           </div>
         </div>
       </div>
+      {/* Technologies section */}
+      <TechNology />
+      <ShowCase />
     </section>
   );
 };
